@@ -404,9 +404,38 @@ hr {
   font-size: 16px; }
 
 #download {
-  background: #5825ec;
+  color: white;
+  text-align: center;
+  background: url("../img/downloadBackground.jpg") no-repeat;
+  background-size: cover;
   padding: 100px 0;
   margin-top: -85px; }
+  #download h2 {
+    color: inherit;
+    font-size: 68px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 900; }
+  #download p {
+    width: 100%;
+    max-width: 450px;
+    margin: 20px auto;
+    font-weight: 900; }
+  #download .button {
+    position: relative;
+    width: 250px;
+    margin: 0 15px;
+    padding-left: 50px; }
+  #download .apple:before, #download .google:before {
+    position: absolute;
+    display: block;
+    left: 22%;
+    top: 14px; }
+  #download .apple:before {
+    top: 13px;
+    content: url("../img/appleicon.png"); }
+  #download .google:before {
+    content: url("../img/playicon.png"); }
 
 .flex-video {
   height: 0;
@@ -438,8 +467,14 @@ hr {
   #header article {
     width: 60%;
     margin: 0 auto; }
+    #header article p {
+      font-weight: 900;
+      margin: 20px auto;
+      font-size: 16px; }
   #header h1 {
-    margin-bottom: 10px; }
+    margin-bottom: -10px;
+    color: inherit;
+    text-transform: uppercase; }
 
 .main-nav {
   display: flex;
