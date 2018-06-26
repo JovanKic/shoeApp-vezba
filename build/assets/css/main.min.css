@@ -212,7 +212,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  padding: 20px 60px;
+  padding: 15px 30px;
   color: black;
   text-align: center;
   font-size: 14px;
@@ -221,10 +221,11 @@ input[type="button"] {
   text-decoration: none;
   white-space: nowrap;
   background-color: white;
-  border-radius: 4px;
+  border-radius: 3px;
   cursor: pointer;
   box-sizing: border-box;
-  transition: all 0.2s ease; }
+  transition: all 0.2s ease;
+  box-shadow: 0 20px 12px -15px rgba(0, 0, 0, 0.2); }
   .button:hover, .button:active, .button:focus,
   button:hover,
   button:active,
@@ -239,7 +240,6 @@ input[type="button"] {
   input[type="button"]:active,
   input[type="button"]:focus {
     outline: 0;
-    transform: scale(1.01);
     transform: translateY(3px); }
 
 a {
@@ -380,6 +380,33 @@ hr {
     list-style: none; }
   #brands ul li img {
     width: 100%; }
+
+#discount {
+  margin-top: 65px; }
+
+.discountLayout {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .discountLayout img {
+    max-width: 50%;
+    width: 50%; }
+  .discountLayout .offer {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center; }
+
+.offer .button {
+  background: #26eca3;
+  background: linear-gradient(130deg, #26eca3 0%, #03a4f7 100%);
+  color: white;
+  padding: 15px 80px;
+  font-size: 16px; }
+
+#download {
+  background: #5825ec;
+  padding: 100px 0;
+  margin-top: -85px; }
 
 .flex-video {
   height: 0;
