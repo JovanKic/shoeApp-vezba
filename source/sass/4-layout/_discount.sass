@@ -4,13 +4,23 @@
   display: flex
   align-items: center
   justify-content: center
+  @media only screen and (max-width:680px)
+    display: block
   img
     max-width: 50%
     width: 50%
+    @media only screen and (max-width:680px)
+      display: block
+      margin: 0 auto
+      max-width: 400px
+      width: 100%
   .offer
     width: 40%
     margin: 0 auto
     text-align: center
+    @media only screen and (max-width:680px)
+      width: 100%
+      //text-align: center
 .offer .button
   background: rgb(38,236,163)
   background: linear-gradient(130deg, rgba(38,236,163,1) 0%, rgba(3,164,247,1) 100%)
