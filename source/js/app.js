@@ -8,3 +8,12 @@ window.sr = ScrollReveal();
 //     origin: 'bottom',
 //     distance: '100px' 
 // });
+function showNav() {
+    console.log("bravo kralju");
+    var x = document.getElementById("responsive-nav");
+    if (x.className === "responsive-nav main-nav") {
+        x.className += " unfold";
+    } else {
+        x.className = "responsive-nav main-nav";
+    }
+}

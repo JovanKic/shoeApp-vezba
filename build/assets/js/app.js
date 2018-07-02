@@ -1,1 +1,1 @@
-window.sr=ScrollReveal();
+function showNav(){console.log("bravo kralju");var a=document.getElementById("responsive-nav");"responsive-nav main-nav"===a.className?a.className+=" unfold":a.className="responsive-nav main-nav"}window.sr=ScrollReveal();
